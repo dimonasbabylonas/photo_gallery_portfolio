@@ -1,0 +1,325 @@
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+body {
+	background-image: url("fonas2.jpg");
+	background-position: center top;
+	background-repeat: no-repeat;
+	padding:0;
+	margin:0;
+	background-size: ; 
+	font-family: Century Gothic, sansserif;
+	color:  #28383F;
+	font-size: 16px;
+	
+}
+	
+}
+ul {
+  list-style: none; 
+  margin: 0; 
+  padding-left: 0; 
+}
+
+a {
+	text-decoration: none; 
+	font-size: 18px;
+	color:#506F77
+}
+a:hover {
+	color:#97AAAD;
+	}
+ul {
+	text-align:right;
+	margin-right:0px;
+	padding-top: 20px;
+	margin:20px;
+}
+li {
+	
+	display: inline;
+	padding-left: 30px;
+	
+	}
+.a {
+	font-size:40px;
+	color:#97AAAD;
+	margin:0;
+	padding:0;
+}
+.b {
+	font-size:20px;
+	color:#506F77;
+	margin:0;
+	padding:0;
+}
+.c {
+	font-size:40px;
+	color:#506F77;
+	margin:0;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.pradzia {
+	float:right;
+	padding-top:250px;
+}
+
+.container {
+		margin:0 auto;
+		max-width: 1100px;
+		}
+.container2 {
+		margin:0 auto;
+		max-width: 900px;
+		}
+.logo {
+	float:right;
+	padding-right:20px;
+	padding-top:240px;
+}
+button {
+	font-family:Century Gothic, sansserif;
+	color: #506F77;
+	background-color: rgba(0,0,0,0);
+	padding: 10px 25px 10px 25px;
+	border: 1px solid #506F77;
+}
+button:hover {
+	color:#97AAAD;
+	border: 1px solid #97AAAD;
+}
+.h {
+	color: #4D7AC1;
+}
+
+.q{
+	padding-top:850px;
+	display:block;
+	font-family:Century Gothic, sansserif;
+	font-size: 30px;
+	text-align:center;
+	
+}
+.y{
+	padding-top:50px;
+	display:block;
+	font-family:Century Gothic, sansserif;
+	font-size: 30px;
+	text-align:center;
+	color:#97AAAD;
+	
+}
+.x{
+	padding-top:60px;
+	display:block;
+	font-family:Century Gothic, sansserif;
+	font-size: 30px;
+	text-align:center;
+	
+}
+
+.pavadinimas{
+	z-index:200;
+	text-align: center;
+	font-size:30px;
+}
+
+.kursivas {
+	font-style:italic;
+	margin:0 auto;
+	max-width:670px;
+	padding-bottom:30px;
+	padding-top:70px;
+}
+.text {
+	text-align:center;
+}
+.eilute1 {
+	padding-top:50px;
+	margin:0 auto;
+	position:relative;
+	z-index:400;
+	
+	
+}
+.eilute2 {
+	
+	position:absolute;
+	right:396px;
+	top:2572px;
+}
+	
+}
+.eilute3 {
+	
+	position:relative;
+	margin:0 auto;
+	padding-top: 100px;
+	
+	
+
+}
+footer {
+	text-align: left;
+	background-color:#28383F;
+	color: #506F77;
+	display:block;
+}
+
+.right {
+	float:right;
+	
+}
+.left {
+	float:left;
+	
+}
+.u {
+	text-align:center;
+	padding-top:350px;
+	padding-bottom:30px;
+}
+.p {
+	text-align:center;
+	
+	padding-bottom:50px;
+}
+#w {
+	padding-top:50px;
+	margin:0 auto;
+	max-width:850px;
+	text-align:center;
+	padding-bottom:50px;
+}
+.zinute{
+	background-color:#506F77;
+	border:none;
+	font-family:Century Gothic, sansserif;
+	color: #97AAAD;
+	padding: 10px 20px 20px 10px;
+	text-align:left;
+	width: 300px;
+	height:100px;
+}
+.kkk {
+	text-align:right;
+}
+.ins {
+	width:30px;
+	height:30px;
+	margin-right:15px;
+	text-indent:-9999px;
+	display: inline-block;
+	background-image: url("ins.png");
+	background-repeat: no-repeat;
+}
+
+.ins:hover {
+	background-image: url("ins2.png");
+}
+
+.fb {
+	width:30px;
+	height:30px;
+	margin-right:15px;
+	text-indent:-9999px;
+	display: inline-block;
+	background-image: url("fb.png");
+	background-repeat: no-repeat;
+}
+	
+.fb:hover {
+	background-image: url("fb2.png");
+	
+}
+
+.tw {
+	width:30px;
+	height:30px;
+	margin-right:15px;
+	text-indent:-9999px;
+	display: inline-block;
+	background-image: url("tw.png");
+	background-repeat: no-repeat;
+}
+
+.tw:hover {
+	background-image: url("tw2.png");
+}
+
+.lin:hover {
+	text-decoration: underline;
+}
+.lin {
+	color:#97AAAD;
+}
+
+.pavadin {
+	font-size: 20px;
+	color:#97AAAD;
+}
+.follow {
+	padding-top:30px;
+	color:#97AAAD;
+	font-family:Century Gothic, sansserif;
+	font-size: 20px;
+}
+
+/*LINIJOS*/
+
+.left1 {
+	position:absolute;
+	top:980px;
+	left:140px;
+}
+.right1 {
+	position:absolute;
+	top:980px;
+	right:140px;
+}
+
+.left2 {
+	position:absolute;
+	top:2125px;
+	left:140px;
+}
+.right2 {
+	position:absolute;
+	top:2125px;
+	right:140px;
+}
+
+.leftlinija {
+	position:absolute;
+	top:3345px;
+	left:140px;
+}
+.rightlinija {
+	position:absolute;
+	top:3345px;
+	right:140px;
+}

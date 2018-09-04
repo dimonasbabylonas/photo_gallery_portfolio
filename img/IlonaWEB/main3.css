@@ -1,0 +1,125 @@
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+body {
+	font-family: Century Gothic, sansserif;
+	color:  #28383F;
+	font-size: 16px;
+	text-align:center;
+	padding:0;
+	margin:0;
+	
+
+}
+nav {
+	background-color:#28383F;
+}
+ul {
+  list-style: none; 
+  margin: 0; 
+  padding-left: 0; 
+
+}
+a {
+	text-decoration: none; 
+	font-size: 20px;
+	color:#506F77
+}
+a:hover {
+	color:#97AAAD;
+	}
+ul {
+	text-align:right;
+	margin-right:0px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin:20px;
+}
+li {
+	
+	display: inline;
+	padding-left: 30px;
+	
+	}
+.logo {
+	width:80px;
+	height:80px;
+	margin:12px;
+	text-indent:-9999px;
+	position:absolute;
+	background-image: url("logo.png");
+	background-repeat: no-repeat;
+}
+.logo:hover {
+	background-image: url("logo2.png");
+}
+.q{
+	padding-top:50px;
+	display:block;
+	font-family:Century Gothic, sansserif;
+	font-size: 30px;
+	text-align:center;
+	
+	
+}
+.left1 {
+	position:absolute;
+	top:250px;
+	left:140px;
+}
+.right1 {
+	position:absolute;
+	top:250px;
+	right:140px;
+}
+.container {
+		margin:0 auto;
+		max-width: 1100px;
+		}
+.kursivas {
+	font-style:italic;
+	margin:0 auto;
+	max-width:670px;
+	padding-bottom:30px;
+	padding-top:70px;
+}
+.text { padding-bottom:70px;
+}
+nav {
+	text-align: left;
+	background-color:#28383F;
+	color: #506F77;
+	display:block;
+}
+footer {
+	background-color:#28383F;
+	color: #506F77;
+	display:block;
+}
+.u {
+	margin:30px;
+}

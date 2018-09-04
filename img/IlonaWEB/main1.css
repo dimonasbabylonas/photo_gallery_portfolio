@@ -1,0 +1,9 @@
+body {
+	background-color:#28383F;
+}
+.nuotrauka {
+	
+	text-align:center;
+}
+img { width:600px; transition:width ease-out 1s; }
+.nuotrauka:hover img { width:80%; }
