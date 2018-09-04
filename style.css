@@ -340,6 +340,12 @@ img.zoom {
   nav.white {
     padding-left: 100px;
   }
+  .pimg1,
+  .pimg2,
+  .pimg3,
+  .pimg4 {
+    background-attachment: scroll;
+  }
 }
 
 @media screen and (max-width: 768px) {
